@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 23 Apr 2023 pada 19.12
+-- Waktu pembuatan: 23 Apr 2023 pada 20.19
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.0.28
 
@@ -42,7 +42,39 @@ CREATE TABLE `mahasiswa` (
 
 INSERT INTO `mahasiswa` (`id`, `nama`, `nim`, `email`, `jurusan`, `gambar`) VALUES
 (1, 'Rifki Maulana', 'A22100111', 'a22100111@mhs.stmik-sumedang.ac.id', 'Teknik Informatika', 'Untitled.jpg'),
-(2, 'Dian', 'a12345678', 'dian@gmail.com', 'Teknik Informatika', 'Untitled.jpg');
+(2, 'Dian', 'a12345678', 'dian@gmail.com', 'Teknik Informatika', 'Untitled.jpg'),
+(4, 'asd', 'asda', 'asd', 'asd', 'asd'),
+(5, '', '', '', '', ''),
+(6, '', '', '', '', ''),
+(7, 'asd', 'ads', 'asd', 'asd', 'asd'),
+(8, 'asd', 'ads', 'asd', 'asd', 'asd'),
+(9, 'asd', 'asd', 'asd', 'asd', 'asd'),
+(10, '', 'asd', 'asd', 'asd', 'asd'),
+(11, 'asd', 'asd', 'asd', 'asd', 'asd'),
+(12, 'asd', 'asd', 'asd', 'asd', 'asd'),
+(13, '&lt;h1&gt;asdfniaujbsdf&lt;?h1&gt;', 'asd', 'asd', 'asd', 'asd'),
+(14, '&lt;h1&gt;asdfniaujbsdf&lt;?h1&gt;', 'asd', 'asd', 'asd', 'asd'),
+(15, 'dsa', 'dsa', 'dsa', 'dsa', 'dsa');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indeks untuk tabel `mahasiswa`
+--
+ALTER TABLE `mahasiswa`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT untuk tabel yang dibuang
+--
+
+--
+-- AUTO_INCREMENT untuk tabel `mahasiswa`
+--
+ALTER TABLE `mahasiswa`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
